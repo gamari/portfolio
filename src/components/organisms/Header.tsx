@@ -19,8 +19,6 @@ const Header = () => {
         </Link>
         <nav className="flex flex-wrap items-center justify-center text-base md:ml-auto">
           {links.map((item) => {
-            console.log(item);
-            console.log(router.asPath);
             return (
               <Link href={item.link} key={item.link}>
                 <a
