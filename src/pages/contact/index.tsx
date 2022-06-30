@@ -1,6 +1,5 @@
 import React, { useState } from "react";
 import { AiFillGithub, AiFillTwitterCircle } from "react-icons/ai";
-import { client } from "../../apis/MicrocmsApi";
 import Hero from "../../components/templates/Hero";
 import Layout from "../../components/templates/layouts/Layout";
 import Section from "../../components/templates/Section";
@@ -10,27 +9,33 @@ const index = () => {
     <Layout>
       <Hero title="CONTACT." />
 
-      <Section title="Socialメディア">
-        <div className="flex items-center justify-center ">
-          <a
-            href="https://twitter.com/Marine765_"
-            target={"_blank"}
-            rel="noopener noreferrer"
-          >
-            <AiFillTwitterCircle className="w-10 h-10 text-[#1da1f2]" />
-          </a>
-          <a
-            href="https://github.com/gamari"
-            target={"_blank"}
-            rel="noopener noreferrer"
-          >
-            <AiFillGithub className="w-10 h-10" />
-          </a>
-        </div>
+      <Section title="Social">
+        <SocialMedias />
       </Section>
 
       <Form />
     </Layout>
+  );
+};
+
+const SocialMedias = () => {
+  return (
+    <div className="flex items-center justify-center ">
+      <a
+        href="https://twitter.com/Marine765_"
+        target={"_blank"}
+        rel="noopener noreferrer"
+      >
+        <AiFillTwitterCircle className="w-10 h-10 text-[#1da1f2]" />
+      </a>
+      <a
+        href="https://github.com/gamari"
+        target={"_blank"}
+        rel="noopener noreferrer"
+      >
+        <AiFillGithub className="w-10 h-10" />
+      </a>
+    </div>
   );
 };
 

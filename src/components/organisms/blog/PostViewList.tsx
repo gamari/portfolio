@@ -4,10 +4,6 @@ import { PostType } from "../../../types/PostType";
 import PostView from "../../molecules/PostView";
 
 const PostViewList = ({ posts }: { posts: PostType[] }) => {
-  useEffect(() => {
-    console.log(posts);
-  }, []);
-
   return (
     <section className="overflow-hidden text-gray-600 bg-white body-font">
       <div className="container px-5 py-24 mx-auto">

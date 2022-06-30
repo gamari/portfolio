@@ -6,6 +6,7 @@ import Layout from "../../components/templates/layouts/Layout";
 import { PostType } from "../../types/PostType";
 import PostViewList from "../../components/organisms/blog/PostViewList";
 import Hero from "../../components/templates/Hero";
+import Section from "../../components/templates/Section";
 
 type Props = {
   posts: PostType[];
@@ -16,9 +17,9 @@ const index: NextPage<Props> = ({ posts }) => {
     <Layout>
       <Hero title="Blog." />
 
-      <main>
+      <Section>
         <PostViewList posts={posts} />
-      </main>
+      </Section>
     </Layout>
   );
 };

@@ -7,7 +7,7 @@ type Props = {
 
 const Markdown: React.FC<Props> = ({ content }) => {
   return (
-    <div className="max-w-2xl mx-auto markdown">
+    <div className="mx-auto markdown">
       <ReactMarkdown>{content}</ReactMarkdown>
     </div>
   );

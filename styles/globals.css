@@ -19,6 +19,9 @@
     @apply text-3xl text-blue-400 font-bold
 }
 
+.section-content {
+  @apply max-w-4xl mx-auto
+}
 
 /* Markdown Styles */
 /* Global */

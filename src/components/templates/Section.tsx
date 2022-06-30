@@ -12,7 +12,8 @@ const Section: React.FC<Props> = ({ children, title }) => {
         <div className="pt-10 mb-4 text-2xl font-bold text-center text-gray-800 lg:text-3xl md:mb-6">
           {title}
         </div>
-        {children}
+
+        <div className="section-content">{children}</div>
       </div>
     </div>
   );
