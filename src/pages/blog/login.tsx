@@ -1,8 +1,9 @@
+import { NextPage } from "next";
 import Router from "next/router";
 import React, { useState } from "react";
 import Layout from "../../components/templates/layouts/Layout";
 
-const login = () => {
+const Login: NextPage = () => {
   const [id, setId] = useState<string>("");
   const [password, setPassword] = useState<string>("");
 
@@ -79,4 +80,4 @@ const login = () => {
   );
 };
 
-export default login;
+export default Login;

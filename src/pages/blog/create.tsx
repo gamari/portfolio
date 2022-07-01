@@ -1,11 +1,12 @@
-import { GetServerSideProps } from "next";
+import { NextPage } from "next";
 import React, { useState } from "react";
 import Button from "../../components/atoms/Button";
 import Markdown from "../../components/atoms/markdown/Markdown";
 import Layout from "../../components/templates/layouts/Layout";
 
-const create = () => {
+const Create: NextPage = () => {
   const [value, setValue] = useState<string>("");
+
   return (
     <Layout>
       <div className="h-32"></div>
@@ -25,7 +26,7 @@ const create = () => {
   );
 };
 
-const InputArea = ({ value, setValue }: any) => {
+const InputArea: React.FC<any> = ({ value, setValue }) => {
   const [title, setTitle] = useState<string>("");
   const [description, setDescription] = useState<string>("");
 
@@ -86,4 +87,4 @@ const InputArea = ({ value, setValue }: any) => {
   );
 };
 
-export default create;
+export default Create;
