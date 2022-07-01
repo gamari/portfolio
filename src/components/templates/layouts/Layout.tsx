@@ -10,7 +10,7 @@ type Props = {
 const Layout: React.FC<Props> = ({ children, isTop = false }) => {
   return (
     <motion.div
-      className="w-full min-h-screen bg-zinc-50"
+      className="relative w-full min-h-screen bg-zinc-50"
       initial={{ opacity: 0 }}
       animate={{ opacity: 1 }}
       exit={{ opacity: 0 }}

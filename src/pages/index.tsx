@@ -7,21 +7,22 @@ import { links } from "../data";
 const Home: NextPage = () => {
   return (
     <Layout isTop={true}>
-      {/* TOP */}
       <div className="hero">
-        <div className="flex flex-col items-center justify-center mb-10">
-          <Logo className="w-32 h-32 text-gray-800" />
-
-          <div className="mb-2 text-6xl">GAMARI</div>
-          <div className="text-xl">WEB ENGINEER</div>
-        </div>
-
-        {/* BOTTOM */}
-        <div>
-          <Menu />
-        </div>
+        <MainLogo />
+        <Menu />
       </div>
     </Layout>
+  );
+};
+
+const MainLogo = () => {
+  return (
+    <div className="flex flex-col items-center justify-center mb-10">
+      <Logo className="w-32 h-32 text-gray-800" />
+
+      <div className="mb-2 text-6xl">GAMARI</div>
+      <div className="text-xl">WEB ENGINEER</div>
+    </div>
   );
 };
 

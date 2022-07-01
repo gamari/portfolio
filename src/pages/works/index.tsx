@@ -6,10 +6,10 @@ import Section from "../../components/templates/Section";
 const index = () => {
   return (
     <Layout>
-      <Hero title="WORKS." />
+      <Hero title="(準備中)" />
 
       <Section>
-        <div className="flex items-center justify-center h-96">(準備中)</div>
+        <div className="flex items-center justify-center h-96"></div>
       </Section>
     </Layout>
   );
