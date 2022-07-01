@@ -17,7 +17,7 @@ const Create: NextPage = () => {
             <InputArea value={value} setValue={setValue} />
           </div>
 
-          <div className="hidden md:block w-[40%] bg-white border-2 border-black py-2">
+          <div className="hidden md:block w-[50%] bg-white border-2 border-black py-4 px-3">
             <Markdown content={value} />
           </div>
         </div>
@@ -73,7 +73,8 @@ const InputArea: React.FC<any> = ({ value, setValue }) => {
         <label htmlFor="">内容</label>
         <textarea
           name="value"
-          className="border-[1px] border-black w-[80%]"
+          className="border-[1px] border-black w-[80%] p-2"
+          rows={20}
           value={value}
           onChange={(e) => {
             setValue(e.target.value);
