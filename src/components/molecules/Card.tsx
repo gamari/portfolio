@@ -1,3 +1,4 @@
+import Image from "next/image";
 import Link from "next/link";
 import React, { ReactNode } from "react";
 
@@ -12,7 +13,7 @@ const Card: React.FC<Props> = ({ category, title, url = "", children }) => {
   return (
     <div className="p-4 md:w-1/3">
       <div className="h-full overflow-hidden border-2 border-gray-200 rounded-lg border-opacity-60">
-        <img
+        <Image
           className="object-cover object-center w-full lg:h-48 md:h-36"
           src="https://dummyimage.com/720x400"
           alt="blog"

@@ -12,7 +12,7 @@ const Sample01 = () => {
             aria-label="Go to homepage"
             className="rounded-sm focus:outline-none focus-visible:ring-4 ring-offset-4 lg:top-9"
           >
-            <img src="/" alt="logo" className="w-48 md:w-64 lg:w-72" />
+            {/* <img src="/" alt="logo" className="w-48 md:w-64 lg:w-72" /> */}
           </a>
 
           <button

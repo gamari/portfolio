@@ -1,3 +1,4 @@
+import Link from "next/link";
 import React from "react";
 import Hero from "../../components/templates/Hero";
 import Layout from "../../components/templates/layouts/Layout";
@@ -12,7 +13,7 @@ const index = () => {
         <div className="flex items-center justify-center h-96">
           <div>
             <h3>クローン</h3>
-            <a href="/clone/twitter">Twitterクローン</a>
+            <Link href="/clone/twitter">Twitterクローン</Link>
           </div>
         </div>
       </Section>
