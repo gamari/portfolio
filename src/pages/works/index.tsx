@@ -6,10 +6,15 @@ import Section from "../../components/templates/Section";
 const index = () => {
   return (
     <Layout>
-      <Hero title="(準備中)" />
+      <Hero title="制作物" />
 
       <Section>
-        <div className="flex items-center justify-center h-96"></div>
+        <div className="flex items-center justify-center h-96">
+          <div>
+            <h3>クローン</h3>
+            <a href="/clone/twitter">Twitterクローン</a>
+          </div>
+        </div>
       </Section>
     </Layout>
   );
