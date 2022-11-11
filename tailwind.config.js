@@ -8,6 +8,7 @@ module.exports = {
     extend: {
       colors: {
         'baseblue': 'rgb(72, 101, 178)',
+        "twitter": "#00ADED"
       },
     },
   },
