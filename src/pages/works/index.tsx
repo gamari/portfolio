@@ -12,8 +12,8 @@ const index = () => {
       <Section>
         <div className="flex items-center justify-center h-96">
           <div>
-            <h3>クローン</h3>
-            <Link href="/clone/twitter">Twitterクローン</Link>
+            {/* <h3>クローン</h3>
+            <Link href="/clone/twitter">Twitterクローン</Link> */}
           </div>
         </div>
       </Section>
