@@ -1,23 +1,25 @@
 import React from "react";
 
+import { Work } from "../../features/work/components/Work";
+import { SectionTitle } from "../../features/base/components/SectionTitle";
+
 const Works = () => {
   return (
     <div className="section">
-      <h2 className="section-title">Works</h2>
-      <div className="section-content grid grid-cols-3">
-        <Work />
-        <Work />
-        <Work />
-      </div>
-    </div>
-  );
-};
+      <SectionTitle label="製作物一覧" />
+      <div className="section-content grid grid-cols-1 md:grid-cols-3 mt-10 gap-3">
+        <Work
+          title="チュートリアルMaker"
+          url="https://tutorial-maker-iota.vercel.app/"
+          description="チュートリアルMakerはAIを活用した講座自動生成アプリです。"
+        />
 
-const Work = () => {
-  return (
-    <div>
-      <h2>work1</h2>
-      <div>test</div>
+        <Work
+          title="チュートリアルMaker"
+          url="https://tutorial-maker-iota.vercel.app/"
+          description="チュートリアルMakerはAIを活用した講座自動生成アプリです。"
+        />
+      </div>
     </div>
   );
 };
