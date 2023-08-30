@@ -15,9 +15,15 @@ const Works = () => {
         />
 
         <Work
-          title="チュートリアルMaker"
-          url="https://tutorial-maker-iota.vercel.app/"
-          description="チュートリアルMakerはAIを活用した講座自動生成アプリです。"
+          title="PageMaker"
+          url="https://page-maker-seven.vercel.app/"
+          description="画面を自動生成してくれるアプリです。"
+        />
+
+        <Work
+          title="SNSクローン"
+          url="https://sns-nextjs-front-completed.vercel.app/"
+          description="SNSの基本的な機能を備えたサイトです。"
         />
       </div>
     </div>
