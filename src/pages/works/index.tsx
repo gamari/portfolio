@@ -1,9 +1,9 @@
 import Link from "next/link";
 import React from "react";
-import Hero from "../../components/templates/Hero";
-import Layout from "../../components/templates/layouts/Layout";
-import Section from "../../components/templates/Section";
-import Works from "../../components/organisms/Works";
+import Hero from "../../features/templates/components/Hero";
+import Layout from "../../features/base/components/Layout";
+import Section from "../../features/base/components/container/Section";
+import Works from "../../features/work/components/Works";
 
 const index = () => {
   return (

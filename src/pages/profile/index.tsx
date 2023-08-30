@@ -1,9 +1,9 @@
 import Head from "next/head";
 import React from "react";
-import FlowItem from "../../components/molecules/FlowItem";
-import Hero from "../../components/templates/Hero";
-import Layout from "../../components/templates/layouts/Layout";
-import Section from "../../components/templates/Section";
+import FlowItem from "../../features/templates/components/FlowItem";
+import Hero from "../../features/templates/components/Hero";
+import Layout from "../../features/base/components/Layout";
+import Section from "../../features/base/components/container/Section";
 
 const index = () => {
   return (

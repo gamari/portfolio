@@ -1,8 +1,8 @@
 import Link from "next/link";
 import { useRouter } from "next/router";
 import React, { useEffect, useRef } from "react";
-import { links } from "../../data";
-import Logo from "../atoms/Logo";
+import { links } from "../../../data";
+import Logo from "../../base/components/Logo";
 
 const Header = () => {
   const router = useRouter();

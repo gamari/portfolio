@@ -1,6 +1,6 @@
 import { motion } from "framer-motion";
 import React, { ReactNode } from "react";
-import Header from "../../organisms/Header";
+import Header from "../../templates/components/Header";
 
 type Props = {
   children: ReactNode;

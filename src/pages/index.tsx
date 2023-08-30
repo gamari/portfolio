@@ -1,7 +1,7 @@
 import type { NextPage } from "next";
 import Link from "next/link";
-import Layout from "../components/templates/layouts/Layout";
-import Logo from "../components/atoms/Logo";
+import Layout from "../features/base/components/Layout";
+import Logo from "../features/base/components/Logo";
 import { links } from "../data";
 
 const Home: NextPage = () => {

@@ -1,7 +1,7 @@
 import React from "react";
 
-import { Work } from "../../features/work/components/Work";
-import { SectionTitle } from "../../features/base/components/SectionTitle";
+import { Work } from "./Work";
+import { SectionTitle } from "../../base/components/SectionTitle";
 
 const Works = () => {
   return (

@@ -1,17 +1,14 @@
 import React from "react";
 import { NextPage } from "next";
 
-import Layout from "../../components/templates/layouts/Layout";
-import { PostType } from "../../types/PostType";
-import Hero from "../../components/templates/Hero";
-import Section from "../../components/templates/Section";
+import Layout from "../../features/base/components/Layout";
+import Hero from "../../features/templates/components/Hero";
+import Section from "../../features/base/components/container/Section";
 import Link from "next/link";
 
-type Props = {
-  posts: PostType[];
-};
+type Props = {};
 
-const index: NextPage<Props> = ({ posts }) => {
+const index: NextPage<Props> = () => {
   return (
     <Layout>
       <Hero title="Blog." />

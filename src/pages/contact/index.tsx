@@ -1,10 +1,9 @@
-import React, { useState } from "react";
-import { AiFillGithub, AiFillTwitterCircle } from "react-icons/ai";
-import Form from "../../components/organisms/contact/Form";
-import SocialMedias from "../../components/organisms/SocialMedias";
-import Hero from "../../components/templates/Hero";
-import Layout from "../../components/templates/layouts/Layout";
-import Section from "../../components/templates/Section";
+import React from "react";
+import Form from "../../features/contact/components/Form";
+import SocialMedias from "../../features/templates/components/SocialMedias";
+import Hero from "../../features/templates/components/Hero";
+import Layout from "../../features/base/components/Layout";
+import Section from "../../features/base/components/container/Section";
 
 const index = () => {
   return (
